@@ -1,0 +1,49 @@
+{
+  "name": "brequest",
+  "version": "1.0.0",
+  "description": "HTTP client for browsers",
+  "main": "lib",
+  "browser": "sims/browser",
+  "scripts": {
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js && ./ci/browser.js"
+  },
+  "repository": "b-labo/brequest",
+  "keywords": [
+    "browser",
+    "request"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b-labo/brequest/issues"
+  },
+  "homepage": "https://github.com/b-labo/brequest#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "objnest": "^3.0.5",
+    "superagent": "^2.1.0"
+  },
+  "devDependencies": {
+    "ababel": "^1.0.19",
+    "ababel-es2015": "^1.0.2",
+    "amocha": "^1.0.8",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.2",
+    "ape-reporting": "^3.0.1",
+    "ape-tasking": "^4.0.7",
+    "ape-tmpl": "^5.0.14",
+    "ape-updating": "^4.0.4",
+    "aport": "^1.0.0",
+    "coz": "^6.0.14",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
