@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "HTTP client for browsers",
   "main": "lib",
-  "browser": "sims/browser",
+  "browser": "shim/browser",
   "scripts": {
     "test": "./ci/test.js",
     "prepublish": "./ci/build.js && ./ci/browser.js"
